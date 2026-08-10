@@ -44,7 +44,7 @@ public class HospitalOperationsController {
 		//return  LVN
 		return "show_report";
 	}
-	
+	//suppose i have bug 123
 	@GetMapping("/add")  // for  form launching
 	public    String  showAddDoctorFormPage(@ModelAttribute("dvo") DoctorVO vo) {
 		System.out.println("HospitalOperationsController.showAddDoctorFormPage()");
